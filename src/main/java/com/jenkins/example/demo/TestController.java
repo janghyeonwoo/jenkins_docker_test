@@ -3,9 +3,10 @@ package com.jenkins.example.demo;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @RequestMapping("test")
-@Controller
+@RestController
 public class TestController {
 
     @GetMapping("/")
